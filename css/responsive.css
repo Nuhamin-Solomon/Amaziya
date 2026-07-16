@@ -1,71 +1,27 @@
 @media(max-width:768px){
 
 
-
-.navbar{
-
+.about-container{
 
 flex-direction:column;
 
-gap:20px;
+}
 
+
+
+.about-content{
+
+text-align:center;
 
 }
 
 
 
-.logo{
+.countdown div{
 
-
-font-size:25px;
-
+min-width:70px;
 
 }
-
-
-
-
-.birthday-card{
-
-
-margin:20px;
-
-padding:30px;
-
-
-}
-
-
-
-
-.birthday-card h1{
-
-
-font-size:35px;
-
-
-}
-
-
-
-.date-box{
-
-
-flex-direction:column;
-
-
-}
-
-
-
-.balloon{
-
-
-font-size:50px;
-
-
-}
-
 
 
 

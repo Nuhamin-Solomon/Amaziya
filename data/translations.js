@@ -4,71 +4,60 @@ const translations = {
 en:{
 
 
-logo:
-"🎂 Amaziya",
+logo:"🎂 Amaziya",
+
+title:"Amaziya Turns ONE 🎉",
+
+amharicTitle:"Amaziya's First Birthday Celebration 🎂",
+
+subtitle:"A year full of love, smiles and happiness ❤️",
+
+message:"Join us to celebrate Amaziya's first birthday",
 
 
-title:
-"Amaziya Turns ONE 🎉",
+countdownTitle:"🎉 Celebration Starts In",
+
+days:"Days",
+
+hours:"Hours",
+
+minutes:"Minutes",
+
+seconds:"Seconds",
 
 
-amharicTitle:
-"Amaziya's First Birthday Celebration 🎂",
+born:"Born",
+
+birthday:"July 9",
+
+celebration:"Celebration",
+
+date:"Sunday July 19",
+
+time:"01:00 PM Lunch",
 
 
-subtitle:
-"A year full of love, smiles and happiness ❤️",
+aboutTitle:"About Amaziya ❤️",
+
+aboutDescription:
+"Amaziya is celebrating one amazing year filled with love, smiles, and beautiful memories.",
+
+ageTitle:"Age",
+
+age:"1 Year Old",
+
+birthTitle:"Birthday",
+
+birth:"July 9",
+
+loveTitle:"Favorite",
+
+favorite:"Smiles & Playing 🧸",
 
 
-message:
-"Join us to celebrate Amaziya's first birthday",
+button:"RSVP Now",
 
-
-
-countdownTitle:
-"🎉 Celebration Starts In",
-
-
-days:
-"Days",
-
-hours:
-"Hours",
-
-minutes:
-"Minutes",
-
-seconds:
-"Seconds",
-
-
-
-born:
-"Born",
-
-
-birthday:
-"July 9",
-
-
-celebration:
-"Celebration",
-
-
-date:
-"Sunday July 19",
-
-
-time:
-"01:00 PM Lunch",
-
-
-button:
-"RSVP Now",
-
-
-footer:
-"Made with ❤️ for Amaziya's First Birthday"
+footer:"Made with ❤️ for Amaziya's First Birthday"
 
 
 
@@ -77,76 +66,66 @@ footer:
 
 
 
-
-
 am:{
 
 
-logo:
-"🎂 አማዚያ",
+logo:"🎂 አማዚያ",
 
+title:"አማዚያ አንደኛ ዓመት ልደት 🎉",
 
-title:
-"አማዚያ አንደኛ ዓመት ልደት 🎉",
-
-
-amharicTitle:
-"የአማዚያ የመጀመሪያ ልደት 🎂",
-
+amharicTitle:"የአማዚያ የመጀመሪያ ልደት 🎂",
 
 subtitle:
 "አንድ ዓመት በፍቅር፣ በደስታ እና በፈገግታ ❤️",
 
-
 message:
 "የአማዚያን የመጀመሪያ ልደት ከእኛ ጋር ያክብሩ",
-
-
 
 
 countdownTitle:
 "🎉 በዓሉ የሚጀምርበት ጊዜ",
 
 
+days:"ቀን",
 
-days:
-"ቀን",
+hours:"ሰዓት",
 
-hours:
-"ሰዓት",
+minutes:"ደቂቃ",
 
-minutes:
-"ደቂቃ",
-
-seconds:
-"ሰከንድ",
+seconds:"ሰከንድ",
 
 
+born:"የተወለደበት",
+
+birthday:"ሐምሌ 9",
+
+celebration:"የበዓል ቀን",
+
+date:"እሁድ ሐምሌ 19",
+
+time:"01:00 ከሰዓት ምሳ",
 
 
-born:
-"የተወለደበት",
+aboutTitle:"ስለ አማዚያ ❤️",
+
+aboutDescription:
+"አማዚያ በፍቅር፣ በፈገግታ እና በቆንጆ ትዝታዎች የተሞላ አንድ ዓመት እያከበረ ነው።",
 
 
-birthday:
-"ሐምሌ 9",
+ageTitle:"እድሜ",
+
+age:"1 ዓመት",
+
+birthTitle:"የልደት ቀን",
+
+birth:"ሐምሌ 9",
+
+loveTitle:"የሚወደው",
+
+favorite:"ፈገግታ እና ጨዋታ 🧸",
 
 
-celebration:
-"የበዓል ቀን",
-
-
-date:
-"እሁድ ሐምሌ 19",
-
-
-time:
-"01:00 ከሰዓት ምሳ",
-
-
-button:
-"መገኘት አሳውቅ",
-
+button:"መገኘት አሳውቅ",
 
 footer:
 "በፍቅር ❤️ ለአማዚያ የመጀመሪያ ልደት"

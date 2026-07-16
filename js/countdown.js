@@ -1,10 +1,6 @@
-// Amaziya Birthday Countdown
-
-
 const celebrationDate = new Date(
 "July 19, 2026 13:00:00"
 ).getTime();
-
 
 
 
@@ -20,15 +16,10 @@ const difference = celebrationDate - now;
 
 if(difference <= 0){
 
-
-document.getElementById("days").innerHTML="00";
-
-document.getElementById("hours").innerHTML="00";
-
-document.getElementById("minutes").innerHTML="00";
-
-document.getElementById("seconds").innerHTML="00";
-
+days.innerHTML="00";
+hours.innerHTML="00";
+minutes.innerHTML="00";
+seconds.innerHTML="00";
 
 return;
 
@@ -36,61 +27,47 @@ return;
 
 
 
-const days =
+const daysValue =
 Math.floor(
-difference /
-(1000 * 60 * 60 * 24)
+difference/(1000*60*60*24)
 );
 
 
 
-const hours =
+const hoursValue =
 Math.floor(
-(difference %
-(1000*60*60*24))
+(difference%(1000*60*60*24))
 /
 (1000*60*60)
 );
 
 
 
-const minutes =
+const minutesValue =
 Math.floor(
-(difference %
-(1000*60*60))
+(difference%(1000*60*60))
 /
 (1000*60)
 );
 
 
 
-const seconds =
+const secondsValue =
 Math.floor(
-(difference %
-(1000*60))
+(difference%(1000*60))
 /
 1000
 );
 
 
 
-document.getElementById("days").innerHTML =
-days;
+document.getElementById("days").innerHTML=daysValue;
 
+document.getElementById("hours").innerHTML=hoursValue;
 
+document.getElementById("minutes").innerHTML=minutesValue;
 
-document.getElementById("hours").innerHTML =
-hours;
-
-
-
-document.getElementById("minutes").innerHTML =
-minutes;
-
-
-
-document.getElementById("seconds").innerHTML =
-seconds;
+document.getElementById("seconds").innerHTML=secondsValue;
 
 
 
@@ -99,6 +76,5 @@ seconds;
 
 
 setInterval(updateCountdown,1000);
-
 
 updateCountdown();
