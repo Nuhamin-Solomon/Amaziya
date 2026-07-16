@@ -3,30 +3,31 @@
 
 <head>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>
-        Amziya's First Birthday
-    </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <!-- Google Fonts -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Noto+Sans+Ethiopic:wght@400;700&display=swap" rel="stylesheet">
+<title>
+Amaziya's First Birthday
+</title>
 
 
-    <!-- CSS -->
+<!-- Fonts -->
 
-    <link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link rel="stylesheet" href="css/responsive.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Noto+Sans+Ethiopic:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/responsive.css">
 
 
 </head>
@@ -36,7 +37,6 @@
 <body>
 
 
-<!-- Navigation -->
 
 <header>
 
@@ -44,33 +44,33 @@
 <nav class="navbar">
 
 
-    <div class="logo">
+<div class="logo" id="logo">
 
-        🎂 Amaziya
+🎂 Amaziya
 
-    </div>
-
-
-
-    <div class="language-switch">
-
-
-        <button>
-
-            English
-
-        </button>
+</div>
 
 
 
-        <button>
-
-            አማርኛ
-
-        </button>
+<div class="language-switch">
 
 
-    </div>
+<button id="english-btn">
+
+🇺🇸 English
+
+</button>
+
+
+
+<button id="amharic-btn">
+
+🇪🇹 አማርኛ
+
+</button>
+
+
+</div>
 
 
 </nav>
@@ -82,8 +82,6 @@
 
 
 
-<!-- Hero Section -->
-
 
 <main>
 
@@ -92,158 +90,133 @@
 
 
 
-    <!-- Floating Balloons -->
+<div class="balloon balloon-one">
+🎈
+</div>
 
 
-    <div class="balloon balloon-one">
+<div class="balloon balloon-two">
+🎈
+</div>
 
-        🎈
 
-    </div>
+<div class="balloon balloon-three">
+🎈
+</div>
 
 
-    <div class="balloon balloon-two">
 
-        🎈
 
-    </div>
 
+<div class="hero-content">
 
-    <div class="balloon balloon-three">
 
-        🎈
+<div class="birthday-card">
 
-    </div>
 
+<h1 id="title">
 
+Amaziya Turns ONE 🎉
 
+</h1>
 
-    <div class="hero-content">
 
 
-        <div class="birthday-card">
+<h2 id="amharic-title">
 
+አማዚያ አንደኛ ዓመት ልደት 🎂
 
+</h2>
 
-            <h1>
 
-                Amaziya Turns ONE 🎉
 
-            </h1>
 
+<p id="subtitle">
 
+A year full of love, smiles and happiness ❤️
 
-            <h2>
+</p>
 
-                አማዚያ አንደኛ ዓመት ልደት 🎂
 
-            </h2>
 
 
+<p id="message">
 
+Join us to celebrate Amaziya's first birthday
 
-            <p>
+</p>
 
-                A year full of love, smiles and happiness ❤️
 
-            </p>
 
 
 
-            <p>
+<div class="date-box">
 
-                አንድ ዓመት በፍቅር፣ በደስታ እና በፈገግታ የተሞላ
 
-            </p>
+<div>
 
 
+<span>
+🎂
+</span>
 
 
+<h3 id="born">
+Born
+</h3>
 
-            <div class="date-box">
 
+<p id="birthday">
+July 9
+</p>
 
 
-                <div>
+</div>
 
 
-                    <span>
 
-                        🎂
 
-                    </span>
 
+<div>
 
-                    <h3>
 
-                        Born
+<span>
+🎈
+</span>
 
-                    </h3>
 
+<h3 id="celebration">
+Celebration
+</h3>
 
-                    <p>
 
-                        July 9
+<p id="date">
+Sunday July 19
+</p>
 
-                    </p>
 
+</div>
 
-                </div>
 
+</div>
 
 
 
 
-                <div>
 
+<button class="rsvp-btn" id="button">
 
-                    <span>
+RSVP Now
 
-                        🎈
+</button>
 
-                    </span>
 
 
-                    <h3>
 
-                        Celebration
+</div>
 
-                    </h3>
 
-
-                    <p>
-
-                        Sunday July 19
-
-                    </p>
-
-
-                </div>
-
-
-
-            </div>
-
-
-
-
-
-            <button class="rsvp-btn">
-
-
-                RSVP Now
-
-
-            </button>
-
-
-
-
-
-        </div>
-
-
-    </div>
+</div>
 
 
 
@@ -260,7 +233,7 @@
 <footer>
 
 
-<p>
+<p id="footer">
 
 Made with ❤️ for Amaziya's First Birthday
 
@@ -271,6 +244,11 @@ Made with ❤️ for Amaziya's First Birthday
 
 
 
+
+
+<script src="data/translations.js"></script>
+
+<script src="js/language.js"></script>
 
 
 </body>
