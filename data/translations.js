@@ -24,6 +24,25 @@ message:
 "Join us to celebrate Amaziya's first birthday",
 
 
+
+countdownTitle:
+"🎉 Celebration Starts In",
+
+
+days:
+"Days",
+
+hours:
+"Hours",
+
+minutes:
+"Minutes",
+
+seconds:
+"Seconds",
+
+
+
 born:
 "Born",
 
@@ -40,6 +59,10 @@ date:
 "Sunday July 19",
 
 
+time:
+"01:00 PM Lunch",
+
+
 button:
 "RSVP Now",
 
@@ -50,6 +73,8 @@ footer:
 
 
 },
+
+
 
 
 
@@ -77,6 +102,28 @@ message:
 "የአማዚያን የመጀመሪያ ልደት ከእኛ ጋር ያክብሩ",
 
 
+
+
+countdownTitle:
+"🎉 በዓሉ የሚጀምርበት ጊዜ",
+
+
+
+days:
+"ቀን",
+
+hours:
+"ሰዓት",
+
+minutes:
+"ደቂቃ",
+
+seconds:
+"ሰከንድ",
+
+
+
+
 born:
 "የተወለደበት",
 
@@ -91,6 +138,10 @@ celebration:
 
 date:
 "እሁድ ሐምሌ 19",
+
+
+time:
+"01:00 ከሰዓት ምሳ",
 
 
 button:
