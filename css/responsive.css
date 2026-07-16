@@ -1,7 +1,8 @@
 @media(max-width:768px){
 
 
-.about-container{
+
+.navbar{
 
 flex-direction:column;
 
@@ -9,9 +10,19 @@ flex-direction:column;
 
 
 
-.about-content{
+.about-container{
+
+flex-direction:column;
 
 text-align:center;
+
+}
+
+
+
+.gallery-grid{
+
+grid-template-columns:1fr;
 
 }
 

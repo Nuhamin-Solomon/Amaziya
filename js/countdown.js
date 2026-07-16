@@ -1,25 +1,30 @@
-const celebrationDate = new Date(
-"July 19, 2026 13:00:00"
-).getTime();
+const celebrationDate =
+new Date("July 19, 2026 13:00:00").getTime();
 
 
 
 function updateCountdown(){
 
 
-const now = new Date().getTime();
-
-
-const difference = celebrationDate - now;
+const now =
+new Date().getTime();
 
 
 
-if(difference <= 0){
+const distance =
+celebrationDate - now;
 
-days.innerHTML="00";
-hours.innerHTML="00";
-minutes.innerHTML="00";
-seconds.innerHTML="00";
+
+
+if(distance <=0){
+
+document.getElementById("days").innerHTML="00";
+
+document.getElementById("hours").innerHTML="00";
+
+document.getElementById("minutes").innerHTML="00";
+
+document.getElementById("seconds").innerHTML="00";
 
 return;
 
@@ -27,52 +32,37 @@ return;
 
 
 
-const daysValue =
+
+document.getElementById("days").innerHTML =
+Math.floor(distance/(1000*60*60*24));
+
+
+
+document.getElementById("hours").innerHTML =
 Math.floor(
-difference/(1000*60*60*24)
+(distance%(1000*60*60*24))
+/(1000*60*60)
 );
 
 
 
-const hoursValue =
+document.getElementById("minutes").innerHTML =
 Math.floor(
-(difference%(1000*60*60*24))
-/
-(1000*60*60)
+(distance%(1000*60*60))
+/(1000*60)
 );
 
 
 
-const minutesValue =
+document.getElementById("seconds").innerHTML =
 Math.floor(
-(difference%(1000*60*60))
-/
-(1000*60)
+(distance%(1000*60))
+/1000
 );
-
-
-
-const secondsValue =
-Math.floor(
-(difference%(1000*60))
-/
-1000
-);
-
-
-
-document.getElementById("days").innerHTML=daysValue;
-
-document.getElementById("hours").innerHTML=hoursValue;
-
-document.getElementById("minutes").innerHTML=minutesValue;
-
-document.getElementById("seconds").innerHTML=secondsValue;
 
 
 
 }
-
 
 
 setInterval(updateCountdown,1000);

@@ -4,12 +4,17 @@ function changeLanguage(language){
 for(let key in translations[language]){
 
 
-let element=document.getElementById(key);
+let element =
+document.getElementById(key);
+
 
 
 if(element){
 
-element.innerHTML=translations[language][key];
+
+element.innerHTML =
+translations[language][key];
+
 
 }
 
