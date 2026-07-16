@@ -6,6 +6,24 @@
 
 flex-direction:column;
 
+gap:20px;
+
+}
+
+
+
+.birthday-card{
+
+padding:30px;
+
+}
+
+
+
+.birthday-card h1{
+
+font-size:32px;
+
 }
 
 
@@ -20,9 +38,25 @@ text-align:center;
 
 
 
+.about-content h2{
+
+font-size:30px;
+
+}
+
+
+
 .gallery-grid{
 
 grid-template-columns:1fr;
+
+}
+
+
+
+.rsvp-buttons{
+
+flex-direction:column;
 
 }
 

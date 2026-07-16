@@ -1,6 +1,5 @@
 const translations = {
 
-
 en:{
 
 
@@ -9,8 +8,8 @@ logo:"🎂 Amaziya",
 
 title:"Amaziya Turns ONE 🎉",
 
-
-amharicTitle:"Amaziya's First Birthday Celebration 🎂",
+amharicTitle:
+"Amaziya's First Birthday Celebration 🎂",
 
 
 subtitle:
@@ -26,18 +25,14 @@ countdownTitle:
 "🎉 Celebration Starts In",
 
 
-
 daysText:
 "Days",
-
 
 hoursText:
 "Hours",
 
-
 minutesText:
 "Minutes",
-
 
 secondsText:
 "Seconds",
@@ -46,7 +41,6 @@ secondsText:
 
 born:
 "Born",
-
 
 birthday:
 "July 9",
@@ -70,37 +64,29 @@ aboutTitle:
 "About Amaziya ❤️",
 
 
-
 aboutDescription:
 "Amaziya is celebrating one amazing year filled with love, smiles and beautiful memories.",
-
 
 
 ageTitle:
 "Age",
 
-
 age:
 "1 Year Old",
-
 
 
 birthTitle:
 "Birthday",
 
-
 birth:
 "July 9",
-
 
 
 loveTitle:
 "Favorite",
 
-
 favorite:
 "Smiles & Playing 🧸",
-
 
 
 
@@ -109,10 +95,39 @@ galleryTitle:
 "Amaziya's Memories 📸",
 
 
-
 galleryDescription:
 "Beautiful moments from Amaziya's first year ❤️",
 
+
+
+
+
+rsvpTitle:
+"💌 RSVP",
+
+
+rsvpDescription:
+"Please confirm if you can join Amaziya's birthday celebration.",
+
+
+namePlaceholder:
+"Your Name",
+
+
+numberPlaceholder:
+"Number of Guests",
+
+
+coming:
+"✅ Coming",
+
+
+notComing:
+"❌ Not Coming",
+
+
+saved:
+"Thank you! Your RSVP has been saved ❤️",
 
 
 
@@ -128,8 +143,6 @@ footer:
 
 
 },
-
-
 
 
 
@@ -159,7 +172,7 @@ subtitle:
 
 
 message:
-"የአማዚያን የመጀመሪያ ልደት ከእኛ ጋር ያክብሩ",
+"የአማዚያን የመጀመሪያ ዓመት ልደት ከእኛ ጋር ያክብሩ",
 
 
 
@@ -169,20 +182,19 @@ countdownTitle:
 
 
 
+
 daysText:
 "ቀን",
-
 
 hoursText:
 "ሰዓት",
 
-
 minutesText:
 "ደቂቃ",
 
-
 secondsText:
 "ሰከንድ",
+
 
 
 
@@ -191,20 +203,16 @@ born:
 "የተወለደበት",
 
 
-
 birthday:
 "ሐምሌ 9",
-
 
 
 celebration:
 "የበዓል ቀን",
 
 
-
 date:
 "እሁድ ሐምሌ 19",
-
 
 
 time:
@@ -219,10 +227,8 @@ aboutTitle:
 
 
 
-
 aboutDescription:
 "አማዚያ በፍቅር፣ በፈገግታ እና በቆንጆ ትዝታዎች የተሞላ አንድ ዓመት እያከበረ ነው።",
-
 
 
 
@@ -230,10 +236,8 @@ ageTitle:
 "እድሜ",
 
 
-
 age:
 "1 ዓመት",
-
 
 
 
@@ -241,18 +245,13 @@ birthTitle:
 "የልደት ቀን",
 
 
-
 birth:
 "ሐምሌ 9",
 
 
 
-
-
 loveTitle:
 "የሚወደው",
-
-
 
 
 favorite:
@@ -267,9 +266,45 @@ galleryTitle:
 
 
 
-
 galleryDescription:
 "ከአማዚያ የመጀመሪያ ዓመት የተወሰዱ ቆንጆ ጊዜያት ❤️",
+
+
+
+
+
+rsvpTitle:
+"💌 መገኘት ማሳወቂያ",
+
+
+
+rsvpDescription:
+"ከአማዚያ የልደት በዓል ጋር መገኘትዎን ያሳውቁን።",
+
+
+
+namePlaceholder:
+"ስምዎ",
+
+
+
+numberPlaceholder:
+"የእንግዶች ብዛት",
+
+
+
+coming:
+"✅ እመጣለሁ",
+
+
+
+notComing:
+"❌ አልመጣም",
+
+
+
+saved:
+"እናመሰግናለን! ማሳወቂያዎ ተቀምጧል ❤️",
 
 
 

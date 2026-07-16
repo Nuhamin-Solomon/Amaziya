@@ -1,13 +1,11 @@
-function openImage(image){
-
+function openImage(src){
 
 document.getElementById("image-popup")
 .style.display="flex";
 
 
 document.getElementById("popup-image")
-.src=image;
-
+.src=src;
 
 }
 
@@ -15,9 +13,7 @@ document.getElementById("popup-image")
 
 function closeImage(){
 
-
 document.getElementById("image-popup")
 .style.display="none";
-
 
 }

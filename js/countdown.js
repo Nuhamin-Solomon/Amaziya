@@ -10,7 +10,6 @@ const now =
 new Date().getTime();
 
 
-
 const distance =
 celebrationDate - now;
 
@@ -18,13 +17,10 @@ celebrationDate - now;
 
 if(distance <=0){
 
-document.getElementById("days").innerHTML="00";
-
-document.getElementById("hours").innerHTML="00";
-
-document.getElementById("minutes").innerHTML="00";
-
-document.getElementById("seconds").innerHTML="00";
+days.innerHTML="00";
+hours.innerHTML="00";
+minutes.innerHTML="00";
+seconds.innerHTML="00";
 
 return;
 
@@ -32,21 +28,18 @@ return;
 
 
 
-
-document.getElementById("days").innerHTML =
+days.innerHTML =
 Math.floor(distance/(1000*60*60*24));
 
 
-
-document.getElementById("hours").innerHTML =
+hours.innerHTML =
 Math.floor(
 (distance%(1000*60*60*24))
 /(1000*60*60)
 );
 
 
-
-document.getElementById("minutes").innerHTML =
+minutes.innerHTML =
 Math.floor(
 (distance%(1000*60*60))
 /(1000*60)
@@ -54,7 +47,7 @@ Math.floor(
 
 
 
-document.getElementById("seconds").innerHTML =
+seconds.innerHTML =
 Math.floor(
 (distance%(1000*60))
 /1000
