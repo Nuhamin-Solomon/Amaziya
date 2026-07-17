@@ -67,23 +67,12 @@ const seconds = Math.floor(
 
 
 
-document.getElementById("days").innerHTML =
-days;
+    const pad = n => String(n).padStart(2, "0");
 
-
-
-document.getElementById("hours").innerHTML =
-hours;
-
-
-
-document.getElementById("minutes").innerHTML =
-minutes;
-
-
-
-document.getElementById("seconds").innerHTML =
-seconds;
+    document.getElementById("days").innerHTML = pad(days);
+    document.getElementById("hours").innerHTML = pad(hours);
+    document.getElementById("minutes").innerHTML = pad(minutes);
+    document.getElementById("seconds").innerHTML = pad(seconds);
 
 
 

@@ -1,43 +1,46 @@
-const galleryImages =
-document.querySelectorAll(".gallery-grid img");
+const galleryItems = document.querySelectorAll(".gallery-item");
 
+galleryItems.forEach(item => {
+  item.addEventListener("click", () => {
+    const img = item.querySelector("img");
+    if (!img) return;
 
+    const popup = document.createElement("div");
+    popup.className = "image-view";
+    popup.setAttribute("role", "dialog");
+    popup.setAttribute("aria-modal", "true");
 
-galleryImages.forEach(image=>{
+    const closeBtn = document.createElement("button");
+    closeBtn.className = "close-btn";
+    closeBtn.innerHTML = "×";
+    closeBtn.setAttribute("aria-label", "Close");
 
+    const popupImg = document.createElement("img");
+    popupImg.src = img.src;
+    popupImg.alt = img.alt;
 
-image.onclick=function(){
+    popup.appendChild(closeBtn);
+    popup.appendChild(popupImg);
+    document.body.appendChild(popup);
+    document.body.style.overflow = "hidden";
 
+    function close() {
+      popup.remove();
+      document.body.style.overflow = "";
+    }
 
-let popup =
-document.createElement("div");
+    closeBtn.addEventListener("click", e => {
+      e.stopPropagation();
+      close();
+    });
 
+    popup.addEventListener("click", close);
 
-popup.className="image-view";
-
-
-
-popup.innerHTML =
-`
-<span>×</span>
-<img src="${this.src}">
-`;
-
-
-
-document.body.appendChild(popup);
-
-
-
-popup.onclick=function(){
-
-popup.remove();
-
-};
-
-
-
-};
-
-
+    document.addEventListener("keydown", function onKey(e) {
+      if (e.key === "Escape") {
+        close();
+        document.removeEventListener("keydown", onKey);
+      }
+    });
+  });
 });
