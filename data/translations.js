@@ -83,7 +83,7 @@ const translations = {
 
     galleryTitle: "የአማዚያ ውድ ትዝታዎች",
 
-    rsvpTitle: "በበዓሉ ይሳተፉ",
+    rsvpTitle: "በልደቱ ይሳተፉ",
     rsvpSubtitle: "መገኘትዎን ያሳውቁን — ትንሽ ጊዜ ብቻ ይወስዳል።",
     nameLabel: "ስምዎ",
     guestsLabel: "የእንግዶች ብዛት",
