@@ -1,144 +1,103 @@
 const translations = {
 
-en:{
+
+english:{
 
 
-logo:"🎂 Amaziya",
+logo:"🧸 Amaziya 👑",
+
+
+eyebrow:"A SPECIAL FIRST BIRTHDAY CELEBRATION",
 
 
 title:"Amaziya Turns ONE 🎉",
 
-amharicTitle:
-"Amaziya's First Birthday Celebration 🎂",
 
+amharicTitle:"Amaziya is One Year Old 🎂",
 
-subtitle:
-"A year full of love, smiles and happiness ❤️",
 
+subtitle:"One year of love, smiles and beautiful memories.",
 
-message:
-"Join us to celebrate Amaziya's first birthday",
 
+message:"Join us to celebrate Amaziya's magical first birthday.",
 
 
-countdownTitle:
-"🎉 Celebration Starts In",
 
 
-daysText:
-"Days",
 
-hoursText:
-"Hours",
 
-minutesText:
-"Minutes",
+countdownTitle:"Countdown To The Celebration",
 
-secondsText:
-"Seconds",
 
+days:"Days",
 
+hours:"Hours",
 
-born:
-"Born",
+minutes:"Minutes",
 
-birthday:
-"July 9",
+seconds:"Seconds",
 
 
-celebration:
-"Celebration",
+counting:"🎉 Counting down to Amaziya's special day!",
 
 
-date:
-"Sunday July 19",
+today:"🎂 Today is Amaziya's Birthday!<br><br>Thank you for celebrating this special day with us ❤️",
 
 
-time:
-"01:00 PM Lunch",
+thankyou:"❤️ Thank You<br><br>Thank you for being part of Amaziya's first birthday memories.",
 
 
 
 
-aboutTitle:
-"About Amaziya ❤️",
 
 
-aboutDescription:
-"Amaziya is celebrating one amazing year filled with love, smiles and beautiful memories.",
+born:"Born",
 
 
-ageTitle:
-"Age",
+birthday:"July 9",
 
-age:
-"1 Year Old",
 
+celebration:"Celebration",
 
-birthTitle:
-"Birthday",
 
-birth:
-"July 9",
+date:"Sunday July 19 - 01:00 PM",
 
 
-loveTitle:
-"Favorite",
 
-favorite:
-"Smiles & Playing 🧸",
 
 
 
+storyTitle:"One Beautiful Year",
 
-galleryTitle:
-"Amaziya's Memories 📸",
 
+storyText:"Tiny steps, endless smiles and precious memories.",
 
-galleryDescription:
-"Beautiful moments from Amaziya's first year ❤️",
 
 
 
 
 
-rsvpTitle:
-"💌 RSVP",
+galleryTitle:"Amaziya's Precious Memories",
 
 
-rsvpDescription:
-"Please confirm if you can join Amaziya's birthday celebration.",
 
 
-namePlaceholder:
-"Your Name",
 
 
-numberPlaceholder:
-"Number of Guests",
+rsvpTitle:"Join The Celebration",
 
 
-coming:
-"✅ Coming",
+rsvpButton:"Send RSVP",
 
 
-notComing:
-"❌ Not Coming",
+button:"RSVP Now",
 
 
-saved:
-"Thank you! Your RSVP has been saved ❤️",
 
 
 
 
-button:
-"RSVP Now",
-
-
-
-footer:
-"Made with ❤️ for Amaziya's First Birthday"
+footer:"Made with ❤️ for Amaziya's First Birthday"
 
 
 
@@ -147,180 +106,147 @@ footer:
 
 
 
-am:{
 
 
 
-logo:
-"🎂 አማዚያ",
 
 
 
-title:
-"የአማዚያ አንደኛ ዓመት ልደት 🎉",
 
+amharic:{
 
 
-amharicTitle:
-"የአማዚያ አንደኛ ዓመት ልደት 🎂",
 
+logo:"🧸 አማዚያ 👑",
 
 
-subtitle:
-"አንድ ዓመት በፍቅር፣ በደስታ እና በፈገግታ ❤️",
 
+eyebrow:"የመጀመሪያ ልደት ክብረ በዓል",
 
 
-message:
-"የአማዚያን የመጀመሪያ ዓመት ልደት ከእኛ ጋር ያክብሩ",
 
 
+title:"አማዚያ አንድ ዓመት ሞላው 🎉",
 
 
-countdownTitle:
-"🎉 በዓሉ የሚጀምርበት ጊዜ",
 
 
+amharicTitle:"አማዚያ አንድ ዓመት ሞላው 🎂",
 
 
-daysText:
-"ቀን",
 
-hoursText:
-"ሰዓት",
 
-minutesText:
-"ደቂቃ",
+subtitle:"በፍቅር፣ በሳቅ እና በቆንጆ ትዝታዎች የተሞላ አንድ ዓመት",
 
-secondsText:
-"ሰከንድ",
 
 
 
+message:"የአማዚያን የመጀመሪያ ልደት ከእኛ ጋር ያክብሩ።",
 
 
-born:
-"የተወለደበት",
 
 
-birthday:
-"ሐምሌ 9",
 
 
-celebration:
-"የበዓል ቀን",
+countdownTitle:"እስከ የልደት በዓሉ የሚቀረው ጊዜ",
 
 
-date:
-"እሁድ ሐምሌ 19",
 
+days:"ቀናት",
 
-time:
-"01:00 ከሰዓት ምሳ",
 
+hours:"ሰዓታት",
 
 
+minutes:"ደቂቃዎች",
 
 
-aboutTitle:
-"ስለ አማዚያ ❤️",
+seconds:"ሰከንዶች",
 
 
 
-aboutDescription:
-"አማዚያ በፍቅር፣ በፈገግታ እና በቆንጆ ትዝታዎች የተሞላ አንድ ዓመት እያከበረ ነው።",
 
+counting:"🎉 የአማዚያን ልዩ ቀን እየጠበቅን ነው!",
 
 
-ageTitle:
-"እድሜ",
 
 
-age:
-"1 ዓመት",
+today:"🎂 ዛሬ የአማዚያ ልደት ቀን ነው!<br><br>ይህን ልዩ ቀን ከእኛ ጋር ስላከበሩ እናመሰግናለን ❤️",
 
 
 
-birthTitle:
-"የልደት ቀን",
 
+thankyou:"❤️ እናመሰግናለን<br><br>የአማዚያ የመጀመሪያ ልደት ትዝታ አካል ስለሆኑ እናመሰግናለን።",
 
-birth:
-"ሐምሌ 9",
 
 
 
-loveTitle:
-"የሚወደው",
 
 
-favorite:
-"ፈገግታ እና ጨዋታ 🧸",
 
+born:"የተወለደበት",
 
 
 
+birthday:"ሐምሌ 9",
 
-galleryTitle:
-"የአማዚያ ትዝታዎች 📸",
 
 
 
-galleryDescription:
-"ከአማዚያ የመጀመሪያ ዓመት የተወሰዱ ቆንጆ ጊዜያት ❤️",
+celebration:"የልደት በዓል",
 
 
 
+date:"እሁድ ሐምሌ 19 - 01:00 ከሰዓት",
 
 
-rsvpTitle:
-"💌 መገኘት ማሳወቂያ",
 
 
 
-rsvpDescription:
-"ከአማዚያ የልደት በዓል ጋር መገኘትዎን ያሳውቁን።",
 
 
 
-namePlaceholder:
-"ስምዎ",
+storyTitle:"አንድ ውብ ዓመት",
 
 
 
-numberPlaceholder:
-"የእንግዶች ብዛት",
 
+storyText:"ትንንሽ እርምጃዎች፣ ብዙ ፈገግታዎች እና ውድ ትዝታዎች።",
 
 
-coming:
-"✅ እመጣለሁ",
 
 
 
-notComing:
-"❌ አልመጣም",
 
+galleryTitle:"የአማዚያ ውድ ትዝታዎች",
 
 
-saved:
-"እናመሰግናለን! ማሳወቂያዎ ተቀምጧል ❤️",
 
 
 
 
+rsvpTitle:"በበዓሉ ይሳተፉ",
 
-button:
-"መገኘት አሳውቅ",
 
 
+rsvpButton:"ላክ",
 
-footer:
-"በፍቅር ❤️ ለአማዚያ የመጀመሪያ ልደት"
+
+
+
+button:"መገኘትዎን ያሳውቁ",
+
+
+
+
+
+
+footer:"በፍቅር ❤️ ለአማዚያ የመጀመሪያ ልደት"
 
 
 
 }
+
 
 
 };

@@ -1,19 +1,43 @@
-function openImage(src){
-
-document.getElementById("image-popup")
-.style.display="flex";
-
-
-document.getElementById("popup-image")
-.src=src;
-
-}
+const galleryImages =
+document.querySelectorAll(".gallery-grid img");
 
 
 
-function closeImage(){
+galleryImages.forEach(image=>{
 
-document.getElementById("image-popup")
-.style.display="none";
 
-}
+image.onclick=function(){
+
+
+let popup =
+document.createElement("div");
+
+
+popup.className="image-view";
+
+
+
+popup.innerHTML =
+`
+<span>×</span>
+<img src="${this.src}">
+`;
+
+
+
+document.body.appendChild(popup);
+
+
+
+popup.onclick=function(){
+
+popup.remove();
+
+};
+
+
+
+};
+
+
+});
